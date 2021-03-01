@@ -1,0 +1,12 @@
+h2 {
+    animation: color-change 7s infinite;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes color-change {
+    0% { color: #1522FF; }
+    25% { color: #FF155F; }
+    50% { color: #FF1515; }
+    100% { color: #FF6015; }
+}
